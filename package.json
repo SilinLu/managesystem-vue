@@ -9,16 +9,25 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "less-loader": "^10.2.0",
+    "node-sass": "^4.14.1",
+    "qs": "^6.10.3",
+    "qs.js": "^0.1.12",
     "vue": "^2.6.11"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-eslint": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
+    "axios": "^0.24.0",
     "babel-eslint": "^10.1.0",
+    "element-ui": "^2.15.6",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
-    "vue-template-compiler": "^2.6.11"
+    "sass-loader": "^8.0.2",
+    "vue-router": "^3.5.3",
+    "vue-template-compiler": "^2.6.11",
+    "vuex": "^3.6.2"
   },
   "eslintConfig": {
     "root": true,

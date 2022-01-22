@@ -7,6 +7,7 @@ import axios from 'axios'
 // 请求在到达服务器之前，先会调用use中的这个回调函数来添加请求头信息
 axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded';
 axios.defaults.headers.get['Content-Type'] = 'application/x-www-form-urlencoded';
+axios.defaults.headers.delete['Content-Type'] = 'application/x-www-form-urlencoded';
 axios.defaults.responseType = 'json'
 axios.defaults.transformRequest = [function (data) {
     let ret = ''

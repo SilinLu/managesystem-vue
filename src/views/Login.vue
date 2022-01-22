@@ -1,7 +1,7 @@
 <template>
   <div class="login-container">
     <el-form :model="loginForm" status-icon :rules="rules" ref="loginForm" label-width="80px" class="login-form">
-      <h2 class="login-title">管理系统</h2>
+      <h2 class="login-title">仓库管理系统</h2>
       <el-form-item label="账号" prop="id">
         <el-input v-model.number="loginForm.id"></el-input>
       </el-form-item>
@@ -21,6 +21,7 @@
 import {loginAPI} from "@/api";
 
 export default {
+  name:'Login',
   data() {
     var checkId = (rule, value, callback) => {
         if (value === '') {
